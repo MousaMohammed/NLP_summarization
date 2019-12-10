@@ -42,5 +42,9 @@ The "toy_example2_model_summaries" folder contains the gold standard.
 
 The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
 
-The output obtained from each experiment is contained in numpy files (.npy) named
+The ROUGE metric for each output summary is contained in numpy files (.npy) named ROUGE_2002_toy_example2_d1, ROUGE_2002_toy_example2_d2, ROUGE_2002_toy_example2_d3 and ROUGE_2002_toy_example2_d4 for pyrouge library.
+
+The output files from java ROUGE 2.0 are comma separated files (.csv).
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
