@@ -47,6 +47,7 @@ The ROUGE metric for each output summary is contained in numpy files (.npy) name
 The output files from java ROUGE 2.0 are comma separated files (.csv).
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+# NLP_summarization_DUC_experiments_using_different_ROUGE_libraries
 
 "duc2001_r1_a_supervised_pyrouge.csv", "duc2001_r1_b_supervised_pyrouge.csv", "duc2001_r2_a_supervised_pyrouge.csv", "duc2001_r2_b_supervised_pyrouge.csv" files contain the ROUGE metric of java library for DUC 2001 labeled with pyrouge library using supervised approach.
 
