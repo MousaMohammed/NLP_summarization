@@ -28,15 +28,17 @@ The output files from java ROUGE 2.0 are comma separated files (.csv).
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-The folder "toy example2" contains two documents to summarize and one gold standard. The first document has three sentences, the second has four sentences and the gold standard has four sentences. For this example I create four output summaries, which contains the following:
+The folder "toy example2" contains two documents to summarize and one gold standard. The first document has three sentences, the second has four sentences and the gold standard has four sentences. For this example I create four output summaries (located in "toy_example2_d1", "toy_example2_d2", "toy_example2_d3". "toy_example2_d4" folders), which contains the following:
 
-a. The sentences from document one
+a. The last two sentences from document one and document two
 
-b. The sentences from document two
+b. The sentences of both documents
 
-c. The last two sentences from document one and document two
+c. The sentences from document one
 
-d. The sentences of both documents
+d. The sentences from document two
+
+The "toy_example2_model_summaries" folder contains the gold standard.
 
 The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
 
