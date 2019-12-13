@@ -49,6 +49,14 @@ The output files from java ROUGE 2.0 are comma separated files (.csv).
 ----------------------------------------------------------------------------------------------------------------------------------------
 # DUC_experiments_using_different_ROUGE_libraries
 
+The output summaries for DUC 2001 (100 words lenght, multi-document task, abstractive gold standard), 2002 (200 words length, multi-document, extractive gold standard) and 2004 (100 words length, multi-document, abstractive approach) supervised approach are shown in the next section, evaluated with the same ROUGE libraries mentioned above.
+
+The output summaries for DUC 2001 corpus labeled using easy-rouge is located in the "testing_classifier_4_0.zip" folder, this output summaries were used for java library, pyrouge and easy-rouge libraries, "summaries_cl4_for_ROUGE_pltrdy_A_DUC2001.rar" and "summaries_cl4_for_ROUGE_pltrdy_B_DUC2001.rar" folders contain the output summaries for rouge library.
+
+The output summaries for DUC 2001 corpus labeled using pyrouge is located in the "testing_classifier_pyrouge_4_0.zip" folder, this output summaries were used for java library, pyrouge and easy-rouge libraries, "summaries_cl4_for_ROUGE_pltrdy_A_DUC2001_pyrouge.rar" folder contains the output summaries for rouge library.
+
+The output summaries for DUC 2001 corpus labeled using pyrouge is located in the "testing_classifier_pyrouge_4_0.zip" folder, this output summaries were used for java library, pyrouge and easy-rouge libraries, "summaries_cl4_for_ROUGE_pltrdy_A_DUC2001_pyrouge.rar" folder contains the output summaries for rouge library.
+
 "duc2001_r1_a_supervised_pyrouge.csv", "duc2001_r1_b_supervised_pyrouge.csv", "duc2001_r2_a_supervised_pyrouge.csv", "duc2001_r2_b_supervised_pyrouge.csv" files contain the ROUGE metric of java library for DUC 2001 labeled with pyrouge library using supervised approach.
 
 "duc2001_testing_r1_a_supervised_easyrouge.csv", "duc2001_testing_r1_b_supervised_easyrouge.csv", "duc2001_testing_r2_a_supervised_easyrouge.csv", "duc2001_testing_r2_b_supervised_easyrouge.csv" files contain ROUGE metric of java library for DUC 2001 labeled with easyrouge library using supervised approach.
