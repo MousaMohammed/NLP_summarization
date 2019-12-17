@@ -59,7 +59,11 @@ The output summaries for DUC 2002 corpus are located in "testing1_no_batches_cla
 
 The output summaries for DUC 2004 corpus are located in "testing_classifier_4_0_DUC2004_balanced.rar" folder, these output summaries were used for java library, pyrouge and easy-rouge libraries, "summaries_cl4_for_ROUGE_pltrdy_DUC2001_pyrouge.zip" folder contains the output summaries for rouge library.
 
-Finally, the output summaries for DUC 2002 using an unsupervised approach are located in "experiments_DUC2002_unsup.zip" folder, these output summaries were used for java library, pyrouge and easy-rouge libraries, "summaries_for_ROUGE_pltrdy_A_DUC2002.rar" and "summaries_for_ROUGE_pltrdy_B_DUC2002.rar" folders contain the output summaries for rouge library. In this particular case, the unsupervised approach has a code segment which depends of randomness, so I ran the experiment 30 times and the output was the average result of the 30 experiments.
+Finally, the output summaries for DUC 2002 using an unsupervised approach are located in "experiments_DUC2002_unsup.zip" folder, these output summaries were used for java library and (the finally results are in the "java_library_DUC2002_unsupervised.xlsx" and each output file (.csv) are located in "evaluation30_duc2002_unsupervised_java_library.rar"), pyrouge and easy-rouge libraries, "summaries_for_ROUGE_pltrdy_A_DUC2002.rar" and "summaries_for_ROUGE_pltrdy_B_DUC2002.rar" folders contain the output summaries for rouge library. In this particular case, the unsupervised approach has a code segment which depends of randomness, so I ran the experiment 30 times and the output was the average result of the 30 experiments.
+
+"DUC2001_supervised_pyrouge", "DUC2002_supervised", "DUC2004_supervised_pyrouge", "DUC2001_supervised_easy_rouge" folders have the trained model for each experiment using the supervised approach.
+
+"DUC2002_unsupervised_A.rar" and "DUC2002_unsupervised_B.rar" folders have the gold standards of DUC 2002 unsupervised experiments.
 
 "duc2001_r1_a_supervised_pyrouge.csv", "duc2001_r1_b_supervised_pyrouge.csv", "duc2001_r2_a_supervised_pyrouge.csv", "duc2001_r2_b_supervised_pyrouge.csv" files contain the ROUGE metric of java library for DUC 2001 labeled with pyrouge library.
 
@@ -70,5 +74,7 @@ Finally, the output summaries for DUC 2002 using an unsupervised approach are lo
 "duc2004_r1_a_supervised.csv", "duc2004_r1_b_supervised.csv", "duc2004_r1_c_supervised.csv", "duc2004_r1_d_supervised.csv", "duc2004_r2_a_supervised.csv", "duc2004_r2_b_supervised.csv", "duc2004_r2_c_supervised.csv", "duc2004_r2_d_supervised.csv" files contain ROUGE metric of java library for DUC 2004 using supervised approach.
 
 The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
+
+The "model..." folders are the gold standards for each experiment.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
