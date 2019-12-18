@@ -26,7 +26,7 @@ Original ROUGE 1.5.5.pl wrapper does not run in colab (something related to Perm
 
 The output files from java ROUGE 2.0 are comma separated files (.csv).
 
-# Summary results
+**Summary results**
 
 Toy example A text:
 
@@ -113,7 +113,7 @@ The ROUGE metric for each output summary is contained in numpy files (.npy) name
 
 The output files from java ROUGE 2.0 are comma separated files (.csv).
 
-# Summary results
+**Summary results**
 
 Toy example D1 text:
 
