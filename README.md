@@ -54,13 +54,17 @@ Results of toy example A
 Toy example B text:
 
 Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail.
+
 Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev.
+
 Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
 
 Gold standard text:
 
 Mikhail, Mikhail, Mikhail, Mikhail, Mikhail Mikhail Mikhail Mikhail.
+
 Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev.
+
 Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
 
 Results of toy example B
@@ -118,15 +122,19 @@ The output files from java ROUGE 2.0 are comma separated files (.csv).
 Toy example D1 text:
 
 The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
 What is going on here? OK, it's a hackneyed device that would only work in the movies.
-The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their
-actions.
+
+The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
 
 Gold standard text:
 
 The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
 What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
 The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
 In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
 
 Result of example D1:
@@ -143,18 +151,27 @@ Result of example D1:
 Toy example D2 text:
 
 Cut to a row of dour Communists in ill-fitting gray suits announcing Gorbachev's illness and a palace coup.
+
 The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
 What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
 Gorbachev was set to board a plane in the Crimea, where he was vacationing at the time of Monday's coup, for the two-hour flight to Moscow, said a deputy to Russian Defense Minister Konstantin Kobets.
+
 Earlier reports that the plane had already taken off were incorrect, officials said.
+
 The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
 In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
 
 Gold standard text:
 
 The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
 What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
 The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
 In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
 
 Result of example D2:
@@ -171,14 +188,19 @@ Result of example D2:
 Toy example D3 text:
 
 Cut to a row of dour Communists in ill-fitting gray suits announcing Gorbachev's illness and a palace coup.
+
 The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
 What is going on here? OK, it's a hackneyed device that would only work in the movies. 
 
 Gold standard text:
 
 The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
 What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
 The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
 In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
 
 Result of example D3:
@@ -195,15 +217,21 @@ Result of example D3:
 Toy example D4 text:
 
 Gorbachev was set to board a plane in the Crimea, where he was vacationing at the time of Monday's coup, for the two-hour flight to Moscow, said a deputy to Russian Defense Minister Konstantin Kobets.
+
 Earlier reports that the plane had already taken off were incorrect, officials said.
+
 The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
 In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
 
 Gold standard:
 
 The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
 What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
 The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
 In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
 
 Result of example D4:
