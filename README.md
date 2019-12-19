@@ -334,18 +334,18 @@ In the following table the results are shown.
 | ROUGE-2 precision | 0.0517 | 0.0471 | 0.0095 | 0.0169 |
 | ROUGE-2 F score | 0.0461 | 0.0471 | 0.0117 | 0.0150 |
 
-Finally, the output summaries for DUC 2002 using an unsupervised approach are located in "experiments_DUC2002_unsup.zip" folder, these output summaries were used for java library and (the finally results are in the "java_library_DUC2002_unsupervised.xlsx" and each output file (.csv) are located in "evaluation30_duc2002_unsupervised_java_library.rar"), pyrouge and easy-rouge libraries, "summaries_for_ROUGE_pltrdy_A_DUC2002.rar" and "summaries_for_ROUGE_pltrdy_B_DUC2002.rar" folders contain the output summaries for rouge library. In this particular case, the unsupervised approach has a code segment which depends of randomness, so I ran the experiment 30 times and the output was the average result of the 30 experiments.
+Finally, the output summaries for DUC 2002 using an unsupervised approach are located in "experiments_DUC2002_unsup.zip" folder, these output summaries were used for java library and (the finally results are in the "java_library_DUC2002_unsupervised.xlsx" and each output file (.csv) are located in "evaluation30_duc2002_unsupervised_java_library.rar"), pyrouge (the finally results are in the "pyrouge_library_duc2002_unsupervised.xlsx" and each output file (.npy) are located in "experiments_DUC2002_unsup_pyrouge.zip") and easy-rouge libraries, "summaries_for_ROUGE_pltrdy_A_DUC2002.rar" and "summaries_for_ROUGE_pltrdy_B_DUC2002.rar" folders contain the output summaries for rouge library. In this particular case, the unsupervised approach has a code segment which depends of randomness, so I ran the experiment 30 times and the output was the average result of the 30 experiments.
 
 In the following table the results are shown.
 
 | ROUGE library | Java | Easy-rouge | Rouge | Pyrouge |
 | --- | --- | --- | --- | --- |
-| ROUGE-1 recall | 0.5279 | 0.4645 | 0.0859 | 0.3045 |
-| ROUGE-1 precision | 0.2981 | 0.2856 | 0.1091 | 0.1868 |
-| ROUGE-1 F score | 0.3754 | 0.2856 | 0.0874 | 0.2271 |
-| ROUGE-2 recall | 0.2146 | 0.1592 | 0.0498 | 0.0291 |
-| ROUGE-2 precision | 0.1219 | 0.0954 | 0.0614 | 0.0175 |
-| ROUGE-2 F score | 0.1523 | 0.0954 | 0.0500 | 0.0215 |
+| ROUGE-1 recall | 0.5279 | 0.4645 | 0.0859 | 0.3064 |
+| ROUGE-1 precision | 0.2981 | 0.2856 | 0.1091 | 0.1850 |
+| ROUGE-1 F score | 0.3754 | 0.2856 | 0.0874 | 0.2263 |
+| ROUGE-2 recall | 0.2146 | 0.1592 | 0.0498 | 0.0289 |
+| ROUGE-2 precision | 0.1219 | 0.0954 | 0.0614 | 0.0171 |
+| ROUGE-2 F score | 0.1523 | 0.0954 | 0.0500 | 0.0211 |
 
 "DUC2001_supervised_pyrouge", "DUC2002_supervised", "DUC2004_supervised_pyrouge", "DUC2001_supervised_easy_rouge" folders have the trained model for each experiment using the supervised approach.
 
