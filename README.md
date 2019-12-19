@@ -31,13 +31,17 @@ The output files from java ROUGE 2.0 are comma separated files (.csv).
 Toy example A text:
 
 Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail.
+
 Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev.
+
 Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
 
 Gold standard text:
 
 Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail.
+
 Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev.
+
 Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
 
 Results of toy example A
