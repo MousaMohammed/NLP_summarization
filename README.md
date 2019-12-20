@@ -113,7 +113,7 @@ The camera zooms in on the impassive faces of the two men last seen in Gorbachev
 
 What is going on here? OK, it's a hackneyed device that would only work in the movies.
 
-Documento D2:
+Document D2:
 
 Gorbachev was set to board a plane in the Crimea, where he was vacationing at the time of Monday's coup, for the two-hour flight to Moscow, said a deputy to Russian Defense Minister Konstantin Kobets.
 
