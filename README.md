@@ -103,23 +103,7 @@ Results of toy example C
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-The folder "toy example2" contains two documents to summarize and one gold standard. The first document has three sentences, the second has four sentences and the gold standard has four sentences. For this example I create four output summaries (located in "toy_example2_d1", "toy_example2_d2", "toy_example2_d3". "toy_example2_d4" folders), which contains the following:
-
-a. The last two sentences from document one and document two
-
-b. The sentences of both documents
-
-c. The sentences from document one
-
-d. The sentences from document two
-
-The "toy_example2_model_summaries" folder contains the gold standard.
-
-The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
-
-The ROUGE metric for each output summary is contained in numpy files (.npy) named ROUGE_2002_toy_example2_d1, ROUGE_2002_toy_example2_d2, ROUGE_2002_toy_example2_d3 and ROUGE_2002_toy_example2_d4 for pyrouge library.
-
-The output files from java ROUGE 2.0 are comma separated files (.csv).
+The folder "toy example2" contains two documents to summarize and one gold standard. The first document has three sentences, the second has four sentences and the gold standard has four sentences. 
 
 Document D1:
 
@@ -148,6 +132,24 @@ What is going on here? OK, it's a hackneyed device that would only work in the m
 The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
 
 In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
+
+For this example I create four output summaries (located in "toy_example2_d1", "toy_example2_d2", "toy_example2_d3". "toy_example2_d4" folders), which contains the following:
+
+a. The last two sentences from document one and document two
+
+b. The sentences of both documents
+
+c. The sentences from document one
+
+d. The sentences from document two
+
+The "toy_example2_model_summaries" folder contains the gold standard.
+
+The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
+
+The ROUGE metric for each output summary is contained in numpy files (.npy) named ROUGE_2002_toy_example2_d1, ROUGE_2002_toy_example2_d2, ROUGE_2002_toy_example2_d3 and ROUGE_2002_toy_example2_d4 for pyrouge library.
+
+The output files from java ROUGE 2.0 are comma separated files (.csv).
 
 **Summary results**
 
