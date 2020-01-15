@@ -1,6 +1,6 @@
-**Summary results**
+**Summary results: Very simple toy examples**
 
-Toy example A text:
+Output Document 1:
 
 Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail.
 
@@ -8,7 +8,7 @@ Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev 
 
 Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
 
-Gold standard text:
+Gold Standard Document 1:
 
 Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail.
 
@@ -16,7 +16,7 @@ Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev 
 
 Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
 
-Results of toy example A
+Results of very simple toy example 1
 
 | ROUGE library | Java | Easy-rouge | Rouge | Pyrouge |
 | --- | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ Results of toy example A
 | ROUGE-2 precision | 0.7143 | 0.4000 | 1 | 0.7273 |
 | ROUGE-2 F score | 0.8333 | 0.4000 | 0.9999 | 0.8421 |
 
-Toy example B text:
+Output Document 2:
 
 Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail.
 
@@ -35,7 +35,7 @@ Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev 
 
 Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
 
-Gold standard text:
+Gold Standard Document 2:
 
 Mikhail, Mikhail, Mikhail, Mikhail, Mikhail Mikhail Mikhail Mikhail.
 
@@ -43,7 +43,7 @@ Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev 
 
 Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
 
-Results of toy example B
+Results of very simple toy example 2
 
 | ROUGE library | Java | Easy-rouge | Rouge | Pyrouge |
 | --- | --- | --- | --- | --- |
@@ -54,15 +54,15 @@ Results of toy example B
 | ROUGE-2 precision | 0.7143 | 0.3750 | 1 | 0.7273 |
 | ROUGE-2 F score | 0.8333 | 0.3750 | 0.5000 | 0.8421 |
 
-Toy example C text:
+Output Document 3:
 
 Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
 
-Gold standard text:
+Gold Standard Document 3:
 
 Mikhail, Mikhail, Mikhail, Mikhail, Mikhail Mikhail Mikhail Mikhail Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
 
-Results of toy example C
+Results of very simple toy example 3
 
 | ROUGE library | Java | Easy-rouge | Rouge | Pyrouge |
 | --- | --- | --- | --- | --- |
