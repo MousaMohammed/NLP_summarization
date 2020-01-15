@@ -1,0 +1,173 @@
+The folder "simple_toy_examples" contains two documents to summarize and one gold standard. The first document has three sentences, the second has four sentences and the gold standard has four sentences. 
+
+Document D1:
+
+S1: Cut to a row of dour Communists in ill-fitting gray suits announcing Gorbachev's illness and a palace coup.
+
+S2: The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
+S3: What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
+Document D2:
+
+S1: Gorbachev was set to board a plane in the Crimea, where he was vacationing at the time of Monday's coup, for the two-hour flight to Moscow, said a deputy to Russian Defense Minister Konstantin Kobets.
+
+S2: Earlier reports that the plane had already taken off were incorrect, officials said.
+
+S3: The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
+S4: In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
+
+Gold Standard Document:
+
+S1: The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
+S2: What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
+S3: The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
+S4: In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
+
+For this example I create four output summaries (located in "toy_example2_d1", "toy_example2_d2", "toy_example2_d3". "toy_example2_d4" folders), which contains the following:
+
+A. The sentences from Document 1
+
+B. The sentences from Document 2
+
+C. The last two sentences from Document 1 and the third sentence of Document 2
+
+D. The sentences of both documents
+
+The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
+
+The ROUGE metric for each output summary is contained in numpy files (.npy) named ROUGE_2002_toy_example2_d1, ROUGE_2002_toy_example2_d2, ROUGE_2002_toy_example2_d3 and ROUGE_2002_toy_example2_d4 for pyrouge library.
+
+The output files from java ROUGE 2.0 are comma separated files (.csv).
+
+**Summary results**
+
+Output Document A:
+
+S1: Cut to a row of dour Communists in ill-fitting gray suits announcing Gorbachev's illness and a palace coup.
+
+S2: The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
+S3: What is going on here? OK, it's a hackneyed device that would only work in the movies. 
+
+Gold Standard Document:
+
+S1: The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
+S2: What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
+S3: The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
+S4: In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
+
+Result of simple toy example A:
+
+| ROUGE library | Java | Easy-rouge | Rouge | Pyrouge |
+| --- | --- | --- | --- | --- |
+| ROUGE-1 recall | 0.6177 | 0.6053 | - | 0.6119 |
+| ROUGE-1 precision | 0.7500 | 0.7667 | - | 0.7321 |
+| ROUGE-1 F score | 0.6774 | 0.7667 | - | 0.6667 |
+| ROUGE-2 recall | 0.5500 | 0.5333 | - | 0.5303 |
+| ROUGE-2 precision | 0.6600 | 0.6780 | - | 0.6364 |
+| ROUGE-2 F score | 0.6000 | 0.6780 | - | 0.5785 |
+
+Output Document B:
+
+S1: Gorbachev was set to board a plane in the Crimea, where he was vacationing at the time of Monday's coup, for the two-hour flight to Moscow, said a deputy to Russian Defense Minister Konstantin Kobets.
+
+S2: Earlier reports that the plane had already taken off were incorrect, officials said.
+
+S3: The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
+S4: In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
+
+Gold Standard Document:
+
+The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
+What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
+The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
+In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
+
+Result of simple toy example B:
+
+| ROUGE library | Java | Easy-rouge | Rouge | Pyrouge |
+| --- | --- | --- | --- | --- |
+| ROUGE-1 recall | 0.5000 | 0.6447 | 0.1195 | 0.6716 |
+| ROUGE-1 precision | 0.2970 | 0.3798 | 0.0620 | 0.3947 |
+| ROUGE-1 F score | 0.3727 | 0.3798 | 0.0810 | 0.4972 |
+| ROUGE-2 recall | 0.6471 | 0.5200 | 0 | 0.5152 |
+| ROUGE-2 precision | 0.3894 | 0.3047 | 0 | 0.3009 |
+| ROUGE-2 F score | 0.4862 | 0.3047 | 0 | 0.3799 |
+
+Output Document C:
+
+S1: The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
+S2: What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
+S3: The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
+Gold Standard Document:
+
+S1: The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
+S2: What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
+S3: The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
+S4: In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
+
+Result of simple toy example C:
+
+| ROUGE library | Java | Easy-rouge | Rouge | Pyrouge |
+| --- | --- | --- | --- | --- |
+| ROUGE-1 recall | 1 | 1 | - | 1 |
+| ROUGE-1 precision | 0.6733 | 0.6667 | - | 0.6700 |
+| ROUGE-1 F score | 0.8047 | 0.6667 | - | 0.8024 |
+| ROUGE-2 recall | 1 | 1 | - | 1 |
+| ROUGE-2 precision | 0.6667 | 0.6637 | - | 0.6667 |
+| ROUGE-2 F score | 0.8000 | 0.6637 | - | 0.8000 |
+
+Output Document D:
+
+S1: Cut to a row of dour Communists in ill-fitting gray suits announcing Gorbachev's illness and a palace coup.
+
+S2: The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
+S3: What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
+S4: Gorbachev was set to board a plane in the Crimea, where he was vacationing at the time of Monday's coup, for the two-hour flight to Moscow, said a deputy to Russian Defense Minister Konstantin Kobets.
+
+S5: Earlier reports that the plane had already taken off were incorrect, officials said.
+
+S6: The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
+S7: In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
+
+Gold Standard Document:
+
+S1: The camera zooms in on the impassive faces of the two men last seen in Gorbachev's office.
+
+S2: What is going on here? OK, it's a hackneyed device that would only work in the movies.
+
+S3: The Soviet leader, in a statement for radio and television, said he was fully in command of the situation and that the coup leaders would bear "full responsibility" for their actions.
+
+S4: In the United States, President Bush hailed Gorbachev's return to power and said the coup leaders had "underestimated the power of the people, underestimated what a taste of freedom and democracy brings."
+
+Result of simple toy example D:
+
+| ROUGE library | Java | Easy-rouge | Rouge | Pyrouge |
+| --- | --- | --- | --- | --- |
+| ROUGE-1 recall | 1 | 1 | - | 1 |
+| ROUGE-1 precision | 0.4024 | 0.4021 | - | 0.3941 |
+| ROUGE-1 F score | 0.5738 | 0.4021 | - | 0.5654 |
+| ROUGE-2 recall | 1 | 1 | - | 0.9849 |
+| ROUGE-2 precision | 0.3974 | 0.3989 | - | 0.3846 |
+| ROUGE-2 F score | 0.5687 | 0.3989 | - | 0.5532 |
