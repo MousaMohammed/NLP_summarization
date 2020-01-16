@@ -1,15 +1,5 @@
-# DUC_experiments_using_different_ROUGE_libraries
+We use different libraries of ROUGE, most of them implemented in python, to show the result scores of different experiments. Despite the fact that in the description library said that are a similar implementation of the original ROUGE measure, the scores are different for each library.
 
-The output summaries for 2004 (100 words length, multi-document, abstractive approach) supervised approach are shown in the next section, evaluated with the same ROUGE libraries mentioned above (for more details about experiments, see my other project called supervised_summarization).
+We begin with very simple toy examples and proposed to form sentences with repeated words in order to observe changes between document and its ROUGE measure. For the simple toy examples we used sentences extracted from DUC 2002 corpus. The results of these examples are in the "Toy examples" folder.
 
-"DUC2001_supervised_pyrouge", "DUC2002_supervised", "DUC2004_supervised_pyrouge", "DUC2001_supervised_easy_rouge" folders have the trained model for each experiment using the supervised approach.
-
-"duc2001_testing_r1_a_supervised_easyrouge.csv", "duc2001_testing_r1_b_supervised_easyrouge.csv", "duc2001_testing_r2_a_supervised_easyrouge.csv", "duc2001_testing_r2_b_supervised_easyrouge.csv" files contain ROUGE metric of java library for DUC 2001 labeled with easy-rouge library.
-
-The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
-
-The "model..." folders are the gold standards for each experiment.
-
-----------------------------------------------------------------------------------------------------------------------------------------
-
-
+Additionally, we calculated for each experiment ROUGE measure by hand and our conclusion is that the library that obtains the same result is pyrouge. These are preliminary conclusions, so we presented experiment results using DUC corpora.
