@@ -11,7 +11,6 @@ In the following table the results are shown.
 | ROUGE-2 precision | 0.1219 | 0.0954 | 0.0614 | 0.0171 |
 | ROUGE-2 F score | 0.1523 | 0.0954 | 0.0500 | 0.0211 |
 
-
 "DUC2002_unsupervised_A.rar" and "DUC2002_unsupervised_B.rar" folders have the gold standards of DUC 2002 unsupervised experiments.
 
 The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
