@@ -1,3 +1,17 @@
+The folder "very simple toy examples" contains three variant of summaries:
+
+1. plain text
+
+2. contains some punctuation marks
+
+3. the text is in one sentence format
+
+The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
+
+Original ROUGE 1.5.5.pl wrapper does not run in colab (something related to Permission denied: '/content/gdrive/My Drive/Codigos_doctorado_DUC2001/pyrouge-master_with_ROUGE155/tools/ROUGE-1.5.5/ROUGE-1.5.5.pl'). But, I installed locally in jupyter notebook. The ROUGE metric for each output summary is contained in numpy files (.npy) named ROUGE_2002_toy_example_simple (plain text), ROUGE_2002_toy_example_simple_punctuation (contains punctuation marks) and ROUGE_2002_toy_example_simple_one_line (the text is in one sentence format) for pyrouge library.
+
+The output files from java ROUGE 2.0 are comma separated files (.csv).
+
 **Summary results: Very simple toy examples**
 
 Output Document 1:
