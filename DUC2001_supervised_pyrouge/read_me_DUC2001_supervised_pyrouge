@@ -1,0 +1,22 @@
+The output summaries for DUC 2001 (100 words lenght, multi-document task, abstractive gold standard) supervised approach are shown in the next section, evaluated with four ROUGE libraries.
+
+The output summaries for DUC 2001 corpus labeled using pyrouge are located in "testing_classifier_pyrouge_4_0.zip" folder, these output summaries were used for java library, pyrouge and easy-rouge libraries, "summaries_cl4_for_ROUGE_pltrdy_DUC2001_pyrouge.rar" folder contains the output summaries for rouge library.
+
+In the following table the results are shown.
+
+| ROUGE library | Java | Easy-rouge | Rouge | Pyrouge |
+| --- | --- | --- | --- | --- |
+| ROUGE-1 recall | 0.1961 | 0.2117 | 0.1467 | 0.2829 |
+| ROUGE-1 precision | 0.2347 | 0.2548 | 0.0671 | 0.1491 |
+| ROUGE-1 F score | 0.2023 | 0.2548 | 0.0859 | 0.1947 |
+| ROUGE-2 recall | 0.0203 | 0.0210 | 0.0045 | 0.0216 |
+| ROUGE-2 precision | 0.0231 | 0.0245 | 0.0014 | 0.0112 |
+| ROUGE-2 F score | 0.0204 | 0.0245 | 0.0020 | 0.0147 |
+
+"DUC2001_supervised_pyrouge" folder has the trained model.
+
+"duc2001_r1_a_supervised_pyrouge.csv", "duc2001_r1_b_supervised_pyrouge.csv", "duc2001_r2_a_supervised_pyrouge.csv", "duc2001_r2_b_supervised_pyrouge.csv" files contain the ROUGE metric of java library for DUC 2001 labeled with pyrouge library.
+
+The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
+
+The "model..." folders are the gold standards for each experiment.
