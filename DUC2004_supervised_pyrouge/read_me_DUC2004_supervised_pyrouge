@@ -13,6 +13,8 @@ In the following table the results are shown.
 | ROUGE-2 precision | 0.0517 | 0.0471 | 0.0095 | 0.0169 |
 | ROUGE-2 F score | 0.0461 | 0.0471 | 0.0117 | 0.0150 |
 
+"DUC2004_supervised_pyrouge" has the trained model.
+
 "duc2004_r1_a_supervised.csv", "duc2004_r1_b_supervised.csv", "duc2004_r1_c_supervised.csv", "duc2004_r1_d_supervised.csv", "duc2004_r2_a_supervised.csv", "duc2004_r2_b_supervised.csv", "duc2004_r2_c_supervised.csv", "duc2004_r2_d_supervised.csv" files contain ROUGE metric of java library for DUC 2004 using supervised approach.
 
 The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
