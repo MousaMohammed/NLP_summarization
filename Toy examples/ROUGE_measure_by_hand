@@ -1,3 +1,47 @@
-<!--                     33       
-ROUGE - 1        =   --  =  1 
-         recall      33       -->
+In this example we have the example of "very simple toy examples":
+
+Output Document 1:
+
+S1: Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail.
+
+S2: Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev.
+
+S3: Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
+
+Gold Standard Document 1:
+
+S1: Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail Mikhail.
+
+S2: Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev Gorbachev.
+
+S3: Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin Yeltsin.
+
+In order to measure n-grams we do the following:
+
+* For unigrams (1-grams) we only count words.
+
+* For bigrams (2-grams) we count windows of two words. 
+
+In the example above Mikhail-Mikhail is a bigram (first and second words of S1 in Output Document 1), then we skip the first word and form the next bigram, which is Mikhail-Mikhail (second and third words of S1 in Output Document 1). When we skip the first word we called overlapped bigrams.
+
+On the one hand, for Output Document 1 we have the following: 
+
+* S1 has 20 words length (20 unigrams and 19 bigrams)
+
+* S2 has 9 words length (9 unigrams and 8 bigrams)
+
+* S3 has 16 words length (16 unigrams and 15 bigrams)
+
+* Plus two bigrams: one bigram formed by the last word of S1 and the first word of S2, and the other bigram formed by the last word of S2 and the first word of S3
+
+On the other hand, for Gold Standard Document 1 we have the following:
+
+* S1 has 8 words length (8 unigrams and 7 bigrams)
+
+* S2 has 9 words length (9 unigrams and 8 bigrams)
+
+* S3 has 16 words length (16 unigrams and 15 bigrams)
+
+* Plus two bigrams: one bigram formed by the last word of S1 and the first word of S2, and the other bigram formed by the last word of S2 and the first word of S3
+
+The vocabulary has a length of three, it means in all texts there are three different words.
