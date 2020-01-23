@@ -20,28 +20,68 @@ In order to measure n-grams we do the following:
 
 * For unigrams (1-grams) we only count words.
 
-* For bigrams (2-grams) we count windows of two words. 
+* For bigrams (2-grams) we count windows of two words with no overlapping between the windows. 
 
-In the example above Mikhail-Mikhail is a bigram (first and second words of S1 in Output Document 1), then we skip the first word and form the next bigram, which is Mikhail-Mikhail (second and third words of S1 in Output Document 1). When we skip the first word we called overlapped bigrams.
+In the example above Mikhail-Mikhail is a bigram (first and second words of S1 in Output Document 1), then we skip the next two words and form the next bigram, which is Mikhail-Mikhail (third and fourth words of S1 in Output Document 1). When we skip two words we called no-overlapped bigrams.
 
 On the one hand, for Output Document 1 we have the following: 
 
-* S1 has 20 words length (20 unigrams and 19 bigrams)
+* S1 has 20 words length (20 unigrams and 10 bigrams)
 
-* S2 has 9 words length (9 unigrams and 8 bigrams)
+* S2 has 9 words length (9 unigrams and 4 bigrams)
 
-* S3 has 16 words length (16 unigrams and 15 bigrams)
-
-* Plus two bigrams: one bigram formed by the last word of S1 and the first word of S2, and the other bigram formed by the last word of S2 and the first word of S3
+* S3 has 16 words length (16 unigrams and 8 bigrams)
 
 On the other hand, for Gold Standard Document 1 we have the following:
 
-* S1 has 8 words length (8 unigrams and 7 bigrams)
+* S1 has 8 words length (8 unigrams and 4 bigrams)
 
-* S2 has 9 words length (9 unigrams and 8 bigrams)
+* S2 has 9 words length (9 unigrams and 4 bigrams)
 
-* S3 has 16 words length (16 unigrams and 15 bigrams)
-
-* Plus two bigrams: one bigram formed by the last word of S1 and the first word of S2, and the other bigram formed by the last word of S2 and the first word of S3
+* S3 has 16 words length (16 unigrams and 8 bigrams)
 
 The vocabulary has a length of three, it means in all texts there are three different words.
+
+
+We calculate the following equations in order to obtain the ROUGE measure by hand:
+
+                 number of n-grams co-ocurring between the Gold Standard Document and the Output Document
+ROUGE-n recall = ----------------------------------------------------------------------------------------
+                                   number of n-grams in the Gold Standard Document                                 (1)
+                                   
+                    number of n-grams co-ocurring between the Gold Standard Document and the Output Document
+ROUGE-n precision = ----------------------------------------------------------------------------------------
+                                   number of n-grams in the Output Document                                        (2) 
+
+                       ROUGE-n recall · ROUGE-n precision
+ROUGE-n F1 score = 2 · ----------------------------------
+                       ROUGE-n recall + ROUGE-n precision
+                       
+
+For ROUGE-1, we have n = 1, it means that we have to count unigrams, and substituting in Equation 1 and 2, we obtain the following:
+
+                  33
+ROUGE-1 recall = ---- = 1
+                  33
+                  
+                     32
+ROUGE-1 precision = ---- = 0.7333
+                     45
+
+                        1 · 0.7333
+ROUGE-1 F1 score = 2 · ------------ = 0.8461
+                        1 + 0.7333
+                        
+For ROUGE-2, we have n = 2, it means that we have to count bigrams, and substituting in Equation 1 and 2, we obtain the following:
+
+                  16
+ROUGE-2 recall = ---- = 1
+                  16
+                  
+                     16
+ROUGE-2 precision = ---- = 0.7273
+                     22
+
+                        1 · 0.7273
+ROUGE-2 F1 score = 2 · ------------ = 0.8421
+                        1 + 0.7273
