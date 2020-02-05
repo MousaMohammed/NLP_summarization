@@ -1,0 +1,2 @@
+ROUGE-Type,Task Name,System Name,Avg_Recall,Avg_Precision,Avg_F-Score,Num Reference Summaries
+ROUGE-2,D01,ENGLISHSYSSUM1.TXT,1,0.59627,0.74708,1
