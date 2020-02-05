@@ -40,7 +40,7 @@ D. The sentences of both documents
 
 The notebooks (.ipynb files) contains the python implementations (easy-rouge and rouge python, both run in colab) and in their cell output we can observe the ROUGE metric.
 
-The ROUGE metric for each output summary is contained in numpy files (.npy) named ROUGE_2002_toy_example2_d1, ROUGE_2002_toy_example2_d2, ROUGE_2002_toy_example2_d3 and ROUGE_2002_toy_example2_d4 for pyrouge library.
+The ROUGE metric for each output summary is contained in numpy files (.npy) named r1_recall_toy_example2_duc2002_d1_easyrouge, r1_precision_toy_example2_duc2002_d1_easyrouge, r1_f1_score_toy_example2_duc2002d1_easyrouge and so on for each pyrouge library result in each document (d1-d4).
 
 The output files from java ROUGE 2.0 are comma separated files (.csv).
 
